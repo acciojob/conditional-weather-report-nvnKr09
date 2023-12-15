@@ -14,8 +14,9 @@ const App = () => {
   }
   return (
     <div>
-      <p style={temperatureStyle}>{weatherInput.temperature}°C</p>
-      <p style={temperatureStyle}>{weatherInput.conditions}</p>
+      <h1>Weather Report</h1>
+      <p>Temperature: <span style={temperatureStyle}>{weatherInput.temperature}°C</span></p>
+      <p>Conditions: <span style={temperatureStyle}>{weatherInput.conditions}</span></p>
     </div>
   )
 }
